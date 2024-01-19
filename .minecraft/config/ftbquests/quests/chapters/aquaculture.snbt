@@ -1,0 +1,763 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "aquaculture"
+	group: ""
+	icon: {
+		Count: 1b
+		id: "aquaculture:iron_fishing_rod"
+		tag: {
+			Damage: 0
+		}
+	}
+	id: "78FA5891907E6E47"
+	order_index: 29
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["00000000000015DB"]
+			id: "0000000000000168"
+			rewards: [{
+				id: "0000000000000361"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [
+				{
+					id: "2C90592E111D8242"
+					item: "aquaculture:driftwood"
+					type: "item"
+				}
+				{
+					id: "000000000000016C"
+					item: "aquaculture:tin_can"
+					type: "item"
+				}
+				{
+					id: "000000000000016D"
+					item: "aquaculture:message_in_a_bottle"
+					type: "item"
+				}
+			]
+			title: "What is this junk?"
+			x: 1.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["00000000000015DB"]
+			id: "000000000000033B"
+			rewards: [
+				{
+					count: 3
+					id: "000000000000035B"
+					item: "minecraft:diamond"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "011BDDFD8FF8A919"
+					item: {
+						Count: 1b
+						id: "aquaculture:worm"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "000000000000035F"
+					item: {
+						Count: 1b
+						id: "aquaculture:neptunium_fillet_knife"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0000000000000360"
+					item: "aquaculture:neptunium_ingot"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "000000000000033C"
+					item: "aquaculture:brown_shrooma"
+					type: "item"
+				}
+				{
+					id: "000000000000033D"
+					item: "aquaculture:red_shrooma"
+					type: "item"
+				}
+				{
+					id: "2A24BD51AE9AE953"
+					item: "aquaculture:jellyfish"
+					type: "item"
+				}
+				{
+					id: "193BEF7F3099C189"
+					item: "aquaculture:red_grouper"
+					type: "item"
+				}
+				{
+					id: "76D26F074226B00F"
+					item: "aquaculture:tuna"
+					type: "item"
+				}
+				{
+					id: "0000000000000341"
+					item: "aquaculture:goldfish"
+					type: "item"
+				}
+				{
+					id: "0000000000000342"
+					item: "aquaculture:atlantic_cod"
+					type: "item"
+				}
+				{
+					id: "0000000000000343"
+					item: "aquaculture:blackfish"
+					type: "item"
+				}
+				{
+					id: "0000000000000344"
+					item: "aquaculture:atlantic_halibut"
+					type: "item"
+				}
+				{
+					id: "0000000000000345"
+					item: "aquaculture:atlantic_herring"
+					type: "item"
+				}
+				{
+					id: "0000000000000346"
+					item: "aquaculture:pink_salmon"
+					type: "item"
+				}
+				{
+					id: "0000000000000347"
+					item: "aquaculture:pollock"
+					type: "item"
+				}
+				{
+					id: "0000000000000348"
+					item: "aquaculture:rainbow_trout"
+					type: "item"
+				}
+				{
+					id: "0000000000000349"
+					item: "aquaculture:carp"
+					type: "item"
+				}
+				{
+					id: "000000000000034A"
+					item: "aquaculture:brown_trout"
+					type: "item"
+				}
+				{
+					id: "000000000000034B"
+					item: "aquaculture:bluegill"
+					type: "item"
+				}
+				{
+					id: "000000000000034C"
+					item: "aquaculture:smallmouth_bass"
+					type: "item"
+				}
+				{
+					id: "000000000000034D"
+					item: "aquaculture:synodontis"
+					type: "item"
+				}
+				{
+					id: "000000000000034E"
+					item: "aquaculture:capitaine"
+					type: "item"
+				}
+				{
+					id: "000000000000034F"
+					item: "aquaculture:boulti"
+					type: "item"
+				}
+				{
+					id: "0000000000000350"
+					item: "aquaculture:bayad"
+					type: "item"
+				}
+				{
+					id: "0000000000000351"
+					item: "aquaculture:tambaqui"
+					type: "item"
+				}
+				{
+					id: "0000000000000352"
+					item: "aquaculture:piranha"
+					type: "item"
+				}
+				{
+					id: "0000000000000353"
+					item: "aquaculture:arapaima"
+					type: "item"
+				}
+				{
+					id: "0000000000000354"
+					item: "aquaculture:perch"
+					type: "item"
+				}
+				{
+					id: "0000000000000355"
+					item: "aquaculture:muskellunge"
+					type: "item"
+				}
+				{
+					id: "0000000000000356"
+					item: {
+						Count: 1b
+						id: "aquaculture:minnow"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0000000000000357"
+					item: "aquaculture:gar"
+					type: "item"
+				}
+				{
+					id: "0000000000000358"
+					item: "aquaculture:catfish"
+					type: "item"
+				}
+				{
+					id: "0000000000000359"
+					item: "aquaculture:box_turtle"
+					type: "item"
+				}
+				{
+					id: "000000000000035A"
+					item: "aquaculture:arrau_turtle"
+					type: "item"
+				}
+			]
+			title: "Gotta Catch Them All!"
+			x: 0.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["000000000000161A"]
+			id: "0000000000000164"
+			rewards: [{
+				id: "0000000000000364"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			tasks: [{
+				id: "0000000000000165"
+				item: "aquaculture:fish_fillet_raw"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["0000000000000164"]
+			id: "0000000000000166"
+			rewards: [{
+				id: "0000000000000365"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			tasks: [{
+				id: "0000000000000167"
+				item: "aquaculture:sushi"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["00000000000015F4"]
+			id: "0000000000000157"
+			rewards: [{
+				id: "0000000000000363"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			tasks: [{
+				id: "0000000000000158"
+				item: "aquaculture:oak_fish_mount"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 0.5d
+		}
+		{
+			description: ["Time to get fishing!"]
+			id: "00000000000015DB"
+			shape: "octagon"
+			size: 1.5d
+			tasks: [{
+				id: "00000000000015DC"
+				item: {
+					Count: 1b
+					id: "minecraft:fishing_rod"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["00000000000015DB"]
+			description: [
+				"Fillet of fish sure sounds a lot better than eating a whole fish, scales and all."
+				""
+				"Pretty much a sharp stick."
+			]
+			id: "000000000000161A"
+			rewards: [{
+				id: "000000000000163C"
+				item: "minecraft:string"
+				random_bonus: 2
+				type: "item"
+			}]
+			tasks: [{
+				id: "000000000000161B"
+				item: {
+					Count: 1b
+					id: "aquaculture:wooden_fillet_knife"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -2.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["00000000000015DB"]
+			description: ["My own custom designed fishing rod. Can be customized with special tackle and bait."]
+			id: "00000000000015DD"
+			rewards: [
+				{
+					id: "000000000000164B"
+					item: "minecraft:iron_ingot"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					id: "000000000000164C"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			tasks: [{
+				id: "00000000000015DE"
+				item: {
+					Count: 1b
+					id: "aquaculture:iron_fishing_rod"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 4.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["000000000000161A"]
+			description: ["Should be better than cutting open a fish with a sharp stick."]
+			id: "000000000000161C"
+			rewards: [{
+				id: "000000000000163E"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			tasks: [{
+				id: "000000000000161D"
+				item: {
+					Count: 1b
+					id: "aquaculture:stone_fillet_knife"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -2.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["000000000000161C"]
+			description: ["My first professional fillet knife."]
+			id: "000000000000161E"
+			tasks: [{
+				id: "000000000000161F"
+				item: {
+					Count: 1b
+					id: "aquaculture:iron_fillet_knife"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -2.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["000000000000161E"]
+			description: ["My worst purchased knife."]
+			id: "0000000000001620"
+			tasks: [{
+				id: "0000000000001621"
+				item: {
+					Count: 1b
+					id: "aquaculture:gold_fillet_knife"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -2.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["0000000000001620"]
+			description: ["This knife should never dull."]
+			id: "0000000000001622"
+			rewards: [{
+				id: "0000000000001641"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "0000000000001623"
+				item: {
+					Count: 1b
+					id: "aquaculture:diamond_fillet_knife"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -2.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["0000000000001622"]
+			description: ["A fillet knife imbuded with the power of Neptune. It will never break and gives additional fillets per fish."]
+			id: "0000000000001624"
+			rewards: [{
+				id: "0000000000001643"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "0000000000001625"
+				item: "aquaculture:neptunium_fillet_knife"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["00000000000015E5"]
+			description: ["Plays a note when a fish is about to bite when applied to a rod."]
+			id: "0000000000001600"
+			tasks: [{
+				id: "0000000000001601"
+				item: "aquaculture:note_hook"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["00000000000015E5"]
+			description: ["Incurs a 50% chance to not use durability when applied to a rod, as well as increase the rods luck."]
+			id: "0000000000001602"
+			tasks: [{
+				id: "0000000000001603"
+				item: "aquaculture:nether_star_hook"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["00000000000015E7"]
+			description: ["Worms are but a single bait that can be used with fishing rods. Their are also leeches and minnows that you catch by fishing."]
+			id: "00000000000015E9"
+			rewards: [
+				{
+					id: "0000000000001654"
+					item: {
+						Count: 1b
+						id: "aquaculture:minnow"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0000000000001655"
+					item: {
+						Count: 1b
+						id: "aquaculture:leech"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "00000000000015EA"
+				item: {
+					Count: 1b
+					id: "aquaculture:worm"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Bait"
+			x: 2.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["00000000000015DD"]
+			description: ["The worm box works like the composter (load with vegetables or fruit) but it produces worms to use as bait."]
+			id: "00000000000015E7"
+			tasks: [{
+				id: "00000000000015E8"
+				item: "aquaculture:worm_farm"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["00000000000015DD"]
+			description: ["Is placed on the ground with a rightclick. From there, you can access it's inventory where you can apply tackle to fishing rods on the right. The box also has storage slots to hold bait and tackle. To pickup the box again simply shift rightclick it."]
+			id: "00000000000015E5"
+			rewards: [{
+				id: "0000000000001656"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "00000000000015E6"
+				item: "aquaculture:tackle_box"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["00000000000015DD"]
+			description: ["I caught a chest..... wonder if it is anything valuable?"]
+			id: "00000000000015EB"
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "00000000000015EC"
+				item: "aquaculture:neptunes_bounty"
+				type: "item"
+			}]
+			x: 6.75d
+			y: -1.0d
+		}
+		{
+			dependencies: ["00000000000015E5"]
+			description: ["Can be dyed like leather and can be used to customize your fishing rod."]
+			id: "00000000000015F0"
+			tasks: [{
+				id: "00000000000015F1"
+				item: "aquaculture:bobber"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["00000000000015E5"]
+			description: ["Can be dyed like leather and can be used to customize your fishing rod."]
+			id: "00000000000015F2"
+			tasks: [{
+				id: "00000000000015F3"
+				item: "aquaculture:fishing_line"
+				type: "item"
+			}]
+			x: 5.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["00000000000015E5"]
+			description: ["Incurs a 20% chance to not use durability when applied to a rod."]
+			id: "00000000000015F4"
+			tasks: [{
+				id: "00000000000015F5"
+				item: "aquaculture:iron_hook"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["00000000000015E5"]
+			description: ["Increases a rods luck when applied to a rod."]
+			id: "00000000000015F6"
+			tasks: [{
+				id: "00000000000015F7"
+				item: "aquaculture:gold_hook"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["00000000000015E5"]
+			description: ["Incurs a 50% chance to not use durability when applied to a rod."]
+			id: "00000000000015F8"
+			tasks: [{
+				id: "00000000000015F9"
+				item: "aquaculture:diamond_hook"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["00000000000015E5"]
+			description: ["Allows a rod to cast further when applied to a rod."]
+			id: "00000000000015FA"
+			tasks: [{
+				id: "00000000000015FB"
+				item: "aquaculture:light_hook"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["00000000000015E5"]
+			description: ["Allows a chance to catch two things at once when applied to a rod."]
+			id: "00000000000015FC"
+			tasks: [{
+				id: "00000000000015FD"
+				item: "aquaculture:double_hook"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["00000000000015E5"]
+			description: ["Increases the amount of time allowed to reel in a fish when applied to a rod."]
+			id: "00000000000015FE"
+			tasks: [{
+				id: "00000000000015FF"
+				item: "aquaculture:redstone_hook"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["00000000000015DD"]
+			description: ["When you are the best fisherman around."]
+			id: "00000000000015DF"
+			tasks: [{
+				id: "00000000000015E0"
+				item: {
+					Count: 1b
+					id: "aquaculture:gold_fishing_rod"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 5.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["00000000000015DF"]
+			description: ["When you just want to blind the fish."]
+			id: "00000000000015E1"
+			rewards: [
+				{
+					id: "0000000000001648"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					count: 10
+					id: "0000000000001649"
+					item: {
+						Count: 1b
+						id: "aquaculture:worm"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "00000000000015E2"
+				item: {
+					Count: 1b
+					id: "aquaculture:diamond_fishing_rod"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 6.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["00000000000015E1"]
+			description: ["The best fishing rod around. Neptune's personal rod. Increases bite rate of fish."]
+			id: "00000000000015E3"
+			rewards: [{
+				id: "0000000000001645"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "00000000000015E4"
+				item: {
+					Count: 1b
+					id: "aquaculture:neptunium_fishing_rod"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 7.0d
+			y: -2.5d
+		}
+	]
+	title: "Aquaculture"
+}
