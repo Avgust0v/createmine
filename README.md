@@ -12,4 +12,4 @@
 1. Добавить оперативной память в настройках лаунчера
 
 Зеркало:
-https://disk.yandex.ru/d/KMUuLhhjad0daQ
+https://disk.yandex.ru/d/SwQ0gQ5CF0H_0g
